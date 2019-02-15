@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>yt_api</title>
+</head>
+<body>
+    <main>
+        <section class="input-field">
+            <h1 class="section-header">display yt playlist</h1>
+            <form action="/" class="form" id="form">
+                <input type="text" name="yt-link" id="yt-link" placeholder="place youtube link here...">
+                <button type="submit">submit</button>
+            </form>
+        </section>
+
+        <section class="playlist" id="playlist">
+        </section>
+
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

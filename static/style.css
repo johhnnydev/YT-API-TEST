@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(248, 248, 248);
+    font-family: consolas;
+}
+main{
+    margin: 80px 200px 0px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+.form input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid salmon;
+    padding: 10px;
+    font-family: consolas;
+}
+.form button{
+    background-color: salmon;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: consolas;
+    box-sizing: border-box;
+}
+.form button:hover{
+    border: 1px solid salmon;
+    color: salmon;
+    background-color: white;
+}
+.form button:active{
+    border: 1px solid salmon;
+    color: salmon;
+    background-color: white;
+}
+.section-header{
+    margin: 0px 0px 10px;
+}
+.playlist{
+    margin: 10px 0px 0px;
+}
+.playlist h2,
+.playlist p{
+    margin: 0px;
+}
+.playlist-item{
+    display: flex;
+    flex-direction: row;
+}
+.item-thumbnail{
+    max-height: 200px;
+}
+.item-texts{
+    margin-left: 10px;
+}
